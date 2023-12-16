@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  postgresql:
+    image: postgres
+    restart: always
+    container_name: blurred_dev
+    ports:
+      - "5454:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: blurred_dev
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+volumes:
+  postgres:
+
+networks:
+  meilisearch:
+    driver: bridge
