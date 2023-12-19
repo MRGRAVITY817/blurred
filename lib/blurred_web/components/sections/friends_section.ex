@@ -6,7 +6,7 @@ defmodule BlurredWeb.Sections.FriendsSection do
 
   def friends_section(assigns) do
     ~H"""
-    <div class="w-72 bg-slate-100 h-full flex flex-col items-center justify-start pt-2">
+    <div class="w-72 bg-slate-100 h-full flex flex-col items-center justify-start pt-2 overflow-y-scroll no-scrollbar">
       <div class="px-2 w-full">
         <.text_input />
       </div>
@@ -33,6 +33,114 @@ defmodule BlurredWeb.Sections.FriendsSection do
           }
           status={:online}
         />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://picsum.photos/id/2/200"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://picsum.photos/id/3/200"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://picsum.photos/id/4/200"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://picsum.photos/id/5/200"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
+        <Buttons.user_button user={
+          %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
+        } />
         <Buttons.user_button user={
           %{username: "mrgravity817", image: "https://avatars.githubusercontent.com/u/41038636?v=4"}
         } />
